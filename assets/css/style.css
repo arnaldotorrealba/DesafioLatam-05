@@ -1,0 +1,52 @@
+body {
+  font-family: 'League Spartan', sans-serif;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../imgs/bg-arnaldo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+/* Acerca de mi */
+
+#Acerca-de-mi i{
+    font-size: 50px;
+}
+
+/* Mis trabajos */
+
+.texto-descriptivo{
+  height: 100px;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+  /* Mis trabajos */
+
+  .texto-descriptivo{
+    height: auto;
+  }
+
+}
+
+
