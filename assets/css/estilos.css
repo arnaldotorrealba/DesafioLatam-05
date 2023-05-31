@@ -1,14 +1,17 @@
 body {
   font-family: "Raleway", sans-serif;
+  max-width: 1200px;
+  margin: auto;
 }
 
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/bg-arnaldo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+
 }
 
 /* Mis trabajos */
