@@ -21,11 +21,8 @@ body {
 
 /* Mis trabajos */
 
-#Mis-trabajos .image-top {
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.texto-descriptivo{
+  height: 100px;
 }
 
 /* Contacto */
@@ -44,4 +41,12 @@ body {
     width: 100px;
   }
 
+  /* Mis trabajos */
+
+  .texto-descriptivo{
+    height: auto;
+  }
+
 }
+
+
